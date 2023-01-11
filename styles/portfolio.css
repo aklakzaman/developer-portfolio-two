@@ -79,13 +79,12 @@ nav ul {
 main {
 
     max-width: 1140px;
-    background: #FFF8F3;
-    border-radius: 10px;
     margin: 150px auto;
 }
 
 /* about section */
 .about {
+    background: #FFF8F3;
     padding: 130px 150px;
 }
 
@@ -104,18 +103,74 @@ main {
     text-align: center;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.info-title{
+
+.info-title {
     font-weight: 400;
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.what-i-do-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.i-do {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+/*  */
+.skill-set {
+    margin: 0, 230px;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
