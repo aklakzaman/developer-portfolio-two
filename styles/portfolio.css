@@ -174,3 +174,50 @@ main {
     font-size: 16px;
     color: #757575;
 }
+
+/* resume related style */
+.resume-content {
+    display: flex;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.r-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
+}
+
+.CV-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    gap: 150px;
+    background: #FFF8F3;
+}
+
+.connect {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
