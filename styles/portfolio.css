@@ -214,10 +214,28 @@ main {
     display: flex;
     gap: 150px;
     background: #FFF8F3;
+    gap: 120px;
+    padding-left: 218px;
+    padding-right: 242px;
+    padding-top: 130px;
 }
 
 .connect {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
+
+}
+
+input,
+textarea {
+    width: 461px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 24px;
+    padding-left: 30px;
+}
+.contact a{
+    text-decoration: none;
 }
